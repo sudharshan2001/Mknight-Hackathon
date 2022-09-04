@@ -27,6 +27,7 @@ EDA Report:
 | XGBoost                | 4100           | 
 | AdaBoost XGBoost       | 3957           |
 
+
 Download this folder 
 
 ```pip install requirements.txt```
