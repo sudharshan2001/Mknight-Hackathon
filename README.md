@@ -1,19 +1,19 @@
 # Machineknight-Hackathon
 
-EDA Report:
-  There are some null values from the columns extracted from the amenities columns which is imputed (Most Frequent values)
+## EDA Report:
+    There are some null values from the columns extracted from the amenities columns which is imputed (Most Frequent values)
   
-  Categorical columns are encoded
+    Categorical columns are encoded
   
-  From the activation_date we extracted month and year
+    From the activation_date we extracted month and year
  
- Feature Engineering and Model Selection
+## Feature Engineering and Model Selection
  
-  Several tree models and boosting techniques are used such as Random Forest, Decision Tree, AdaBoost, XGBoost and selected the best model
+    Several tree models and boosting techniques are used such as Random Forest, Decision Tree, AdaBoost, XGBoost and selected the best model
   
-  Used GridSearch-CV with 5 CV to tune the hyperparameter of the model,
+    Used GridSearch-CV with 5 CV to tune the hyperparameter of the model,
   
-  Filtered out important feautres from it by using RFECV and inbuilt XGBOOST Feature importance method
+    Filtered out important feautres from it by using RFECV and inbuilt XGBOOST Feature importance method
   
  Selected Features are ['longitude', 'latitude', 'property_size', 'type', 'property_age',
        'cup_board', 'total_floor', 'month','floor', 'lease_type', 'facing', 'furnishing', 'bathroom', 'balconies', 'parking', 'GP','building_type',
